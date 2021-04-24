@@ -69,7 +69,8 @@ restart.visible = false;
 function draw() {
   background(180);
   
-
+  camera.position.x=trex.x
+  camera.position.y=trex.y
   text("Score: "+ count, 500,50);
   if(gameState === PLAY){
     //move the ground
